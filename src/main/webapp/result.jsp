@@ -15,7 +15,7 @@ out.print("<br>try: " + it.next());
 }
 %>
     </p>
-    <form action="/HeadFirstBeerApp" method="post"><input type="submit" value="return to home"></form>
+    <form action="/" method="post"><input type="submit" value="return to home"></form>
     <div>
       Tip of the day:<c:out value="Keep on truckin' "/>
     </div>
