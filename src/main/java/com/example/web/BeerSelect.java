@@ -22,7 +22,6 @@ public class BeerSelect extends HttpServlet {
      */
     public BeerSelect() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
