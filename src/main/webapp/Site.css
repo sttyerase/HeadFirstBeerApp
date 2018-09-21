@@ -1,0 +1,30 @@
+@charset "UTF-8";
+h1 {
+   background-color : Tomato ;
+   color : white;
+   width : 50%;
+   margin : auto;
+   border-style : outset;
+}
+input.button {
+   background-color : grey;
+   border-radius : 12px;
+   color : white;
+   margin : auto;
+}
+#theForm { 
+   border-style : outset ;
+   margin : auto;
+   width : 50%;
+   background-color : LightGreen;
+}
+#theResult { 
+   border-style : outset ;
+   margin : auto;
+   width : 50%;
+   background-color : Blue;
+   color : white;
+}
+#theInput {
+	margin : auto;
+}
