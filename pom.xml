@@ -19,7 +19,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <configuration>
           <attachClasses>true</attachClasses>
-          <webXml>web.xml</webXml>
+          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
           <webResources>
             <resource>
               <directory>src/main/webapp</directory>
