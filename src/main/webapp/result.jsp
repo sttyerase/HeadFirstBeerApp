@@ -10,6 +10,7 @@
     <h1 align="center">Search Result: Beer Brand Recommendations (JSP)</h1>
     <div id="theResult">
 <%
+String cPath = config.getServletContext().getContextPath();
 String tipOfTheDay = "Keep on truckin&quot;";
 List<String> styles = (List<String>)request.getAttribute("styles");
 Iterator<String> it = styles.iterator();
@@ -19,7 +20,7 @@ out.print("<br>try: " + it.next());
 %>
     </div>
     <div id="theForm">
-      <form action="/" method="post"><input class="button" type="submit" value="return to home"></form>
+      <form action="<%= cPath %>" method="post"><input class="button" type="submit" value="return to home"></form>
     </div>
     <div id="theTip">
       <p>Tip of the day:<c:out value="Keep on truckin' "/></p>
